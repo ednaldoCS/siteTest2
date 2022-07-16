@@ -1,0 +1,1 @@
+export const url='https://gateway.ipfscdn.io/ipfs/QmaJu4798H3cZrYy6sWFZCwpi2Q3NpuzA2h6hBG1MExJL9/nft-drop.html?contract=0x6F6F701aD6cEf9251d18B4864003e8d6586DEF16&chainId=4'

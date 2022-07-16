@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>Document</title>
+
+	<!-- Google icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<div id="background">
+			<video id="video" loop autoplay muted plays-inline src="./SiteAssets/ViDEOSITE2.mp4" type="video/mp4">
+			</video>
+			<img src="./SiteAssets/arcoiris.png" class="img-background first item-to-hidden" style="margin-bottom: 200px;" />
+			<img src="./SiteAssets/Arco Iris2.png" class="img-background item-to-hidden" style="margin-bottom:-60px;" />
+
+		</div>
+		<div class="social-media">
+			<a href="#"><img src="./SiteAssets/Twitter1.png" width="40" /></a>
+			<a href="#"><img src="./SiteAssets/Twitter1.png" width="40" /></a>
+		</div>
+
+		<main id="main">
+			<a href="#" class="btn-mint  item-to-hidden" onclick="mint()">
+				<img src="./SiteAssets/FREEMINTCERTO.png">
+			</a>
+
+			<img src="./SiteAssets/Text11.png"  class="description-text item-to-hidden" />
+
+			<div class="area-iframe" id="area-iframe">
+				<div></div>
+				<iframe id="iframe" src='https://gateway.ipfscdn.io/ipfs/QmaJu4798H3cZrYy6sWFZCwpi2Q3NpuzA2h6hBG1MExJL9/nft-drop.html?contract=0x6F6F701aD6cEf9251d18B4864003e8d6586DEF16&chainId=4' > 
+				</iframe>
+			</div>
+
+			<!-- Utilities -->
+			<section class="item-to-hidden">
+				<img src="./SiteAssets/AmazingUtilities.png" class="title-utility" />
+				
+				<!-- slade utility -->
+				<div class="slade-utilities">	
+					<span id="prev-utility" class="disable">
+						<span class="material-icons md-60">
+							arrow_back_ios
+						</span>
+					</span>
+					<div id="utility1" class="actived">
+						<img src="./SiteAssets/FOTO3Moldurado.png" width="300">
+					</div>
+					<div id="utility2" class="disable">
+						<img src="./SiteAssets/ENDMOLDURADO.png" width="300">
+
+					</div>
+
+					<span id="next-utility" class="actived">
+						<span class="material-icons md-60" >
+							arrow_forward_ios
+						</span>
+					</span>
+					        
+				</div>
+			</section>
+		</main>
+
+		
+	</div>
+	 
+	<script type="text/javascript" src="./index.js"></script>
+
+
+</body>
+</html>      
